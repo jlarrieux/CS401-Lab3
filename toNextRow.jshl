@@ -1,0 +1,19 @@
+//--------------------------------------------------------------------
+//
+//  Laboratory 3 - In-lab 3
+//
+// implementation of the toNextRow method for the Hangman GUI program
+//
+//--------------------------------------------------------------------
+
+    
+
+    private void toNextRow( )
+    {
+        // Add a horizontal line in the background color.  The line itself is
+        // invisible, but it serves to force the next component onto a new line.
+        Canvas line = new Canvas( );
+        line.setSize(10000, 1);
+        line.setBackground(getBackground( ));
+        add(line);
+    }
