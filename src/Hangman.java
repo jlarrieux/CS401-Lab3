@@ -7,7 +7,7 @@ import java.io.StreamTokenizer;
  */
 public class Hangman {
 
-    int numberOfDashes;
+
     static StringBuffer guessTemplate;
     public static void main(String[]arg)throws IOException{
 
@@ -60,5 +60,7 @@ public class Hangman {
         }
         return count;
     }
+
+
 
 }
